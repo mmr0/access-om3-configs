@@ -11,16 +11,16 @@ work/INPUT/JRA55do-drof-ESMFmesh.nc:
   hashes:
     binhash: fa1322dbc0ab951527b165f8327c7b5b
     md5: 3b46260b8c14d12925cf70f82da6658e
-work/INPUT/access-om2-1deg-ESMFmesh.nc:
-  fullpath: /g/data/vk83/configurations/inputs/access-om3/share/meshes/global.1deg/2024.01.25/access-om2-1deg-ESMFmesh.nc
+work/INPUT/access-rom3-ESMFmesh.nc:
+  fullpath: /scratch/jk72/mxr581/regional_mom6_configs/tassie-access-om2-forced-small-test/access-rom3-ESMFmesh.nc
   hashes:
-    binhash: aa3b7d102b4069d5a5ed9446d857f1a4
-    md5: 44e508ac57b244fc357faf5b12933bed
-work/INPUT/access-om2-1deg-nomask-ESMFmesh.nc:
-  fullpath: /g/data/vk83/configurations/inputs/access-om3/share/meshes/global.1deg/2024.01.25/access-om2-1deg-nomask-ESMFmesh.nc
+    binhash: 907ebb12197b5e9900bdba85ac579ae9
+    md5: f42c037a660568cab182f1410f8ccfba
+work/INPUT/access-rom3-nomask-ESMFmesh.nc:
+  fullpath: /scratch/jk72/mxr581/regional_mom6_configs/tassie-access-om2-forced-small-test/access-rom3-nomask-ESMFmesh.nc
   hashes:
-    binhash: 4b1cc45032afeaf93b4894937639f5b9
-    md5: 9b7120a42b5cb587492e7c31791eb549
+    binhash: cbee2239d2cd85ade698d24c118faa11
+    md5: 2c01a8c174a072c93be5f5c013969423
 ? work/INPUT/atmos/3hr/prra/gr/v20190429/prra_input4MIPs_atmosphericState_OMIP_MRI-JRA55-do-1-4-0_gr_195801010130-195812312230.nc
 : fullpath: /g/data/qv56/replicas/input4MIPs/CMIP6/OMIP/MRI/MRI-JRA55-do-1-4-0/atmos/3hr/prra/gr/v20190429/prra_input4MIPs_atmosphericState_OMIP_MRI-JRA55-do-1-4-0_gr_195801010130-195812312230.nc
   hashes:
@@ -3131,16 +3131,66 @@ work/INPUT/atmos/fx/sftof/gr/v20190429/sftof_input4MIPs_atmosphericState_OMIP_MR
   hashes:
     binhash: ef944d0b9c1d3150d113a082e268187e
     md5: 58539c1be00bb9584c404a014396ad40
+work/INPUT/bathymetry.nc:
+  fullpath: /scratch/jk72/mxr581/regional_mom6_configs/tassie-access-om2-forced-small-test/bathymetry.nc
+  hashes:
+    binhash: 34f0a9412a11beb3f32d50ee07ad223b
+    md5: 9a1d9f3bc3a8982bb994cfde29600f2f
+work/INPUT/forcing_obc_segment_001.nc:
+  fullpath: /scratch/jk72/mxr581/regional_mom6_configs/tassie-access-om2-forced-small-test/forcing/forcing_obc_segment_001.nc
+  hashes:
+    binhash: f2812e738b6d760022b3cd8d11c86874
+    md5: 8cea8a5d4cc8e22e292d8cb1d710b7f0
+work/INPUT/forcing_obc_segment_002.nc:
+  fullpath: /scratch/jk72/mxr581/regional_mom6_configs/tassie-access-om2-forced-small-test/forcing/forcing_obc_segment_002.nc
+  hashes:
+    binhash: fb4aaf0a30b8fe209d28136008ad8aae
+    md5: a84aa7aebc5b68d75107d6eb47c6860b
+work/INPUT/forcing_obc_segment_003.nc:
+  fullpath: /scratch/jk72/mxr581/regional_mom6_configs/tassie-access-om2-forced-small-test/forcing/forcing_obc_segment_003.nc
+  hashes:
+    binhash: 64184cb9caeeb692f174e6c4b75f24bb
+    md5: d0da00359345286564bbdab4d207e9cf
+work/INPUT/forcing_obc_segment_004.nc:
+  fullpath: /scratch/jk72/mxr581/regional_mom6_configs/tassie-access-om2-forced-small-test/forcing/forcing_obc_segment_004.nc
+  hashes:
+    binhash: 88b1550ecc2fa6b6f06d8ed732d05084
+    md5: 65148c109be8cea16e883fcadcc76555
 work/INPUT/grid.nc:
   fullpath: /g/data/vk83/configurations/inputs/access-om3/cice/grids/global.1deg/2024.05.14/grid.nc
   hashes:
     binhash: b347eb0588291c34bb40a24a7bc45173
     md5: 544a40b634c182f3e182da6bcbe8be7b
+work/INPUT/grid_spec.nc:
+  fullpath: /scratch/jk72/mxr581/regional_mom6_configs/tassie-access-om2-forced-small-test/grid_spec.nc
+  hashes:
+    binhash: f7ea0ce765dff7124cf79640f28a6b82
+    md5: 0928b247ce620efcb5c355e967f2c22b
+work/INPUT/hgrid.nc:
+  fullpath: /scratch/jk72/mxr581/regional_mom6_configs/tassie-access-om2-forced-small-test/hgrid.nc
+  hashes:
+    binhash: 7b3baab4d22f1b75a4d1b495994e98a1
+    md5: 085256b2601efe8b10de379579f22958
 work/INPUT/iced.1900-01-01-10800.nc:
   fullpath: /g/data/vk83/configurations/inputs/access-om3/cice/initial_conditions/global.1deg/2023.07.28/iced.1900-01-01-10800.nc
   hashes:
     binhash: 414174d244807698f8c919f763d3d51d
     md5: 87c012d60c58c65bb56caa98779e5e51
+work/INPUT/init_eta.nc:
+  fullpath: /scratch/jk72/mxr581/regional_mom6_configs/tassie-access-om2-forced-small-test/forcing/init_eta.nc
+  hashes:
+    binhash: 6ffb71ff3b0a4debb4468942bd1b99a1
+    md5: ff668510b8127f4dca8bc2162af854ef
+work/INPUT/init_tracers.nc:
+  fullpath: /scratch/jk72/mxr581/regional_mom6_configs/tassie-access-om2-forced-small-test/forcing/init_tracers.nc
+  hashes:
+    binhash: 2bf465c737a8ebbbac330f36ff923b4a
+    md5: b443d2e94503041e12ca0fd84aae3ecc
+work/INPUT/init_vel.nc:
+  fullpath: /scratch/jk72/mxr581/regional_mom6_configs/tassie-access-om2-forced-small-test/forcing/init_vel.nc
+  hashes:
+    binhash: 786850ccae90c12dfe63e0b3c06942ea
+    md5: 85bff231b3dcaff3464b9135f6e17ebd
 work/INPUT/kmt.nc:
   fullpath: /g/data/vk83/configurations/inputs/access-om3/cice/grids/global.1deg/2024.05.14/kmt.nc
   hashes:
@@ -3766,6 +3816,11 @@ work/INPUT/land/day/friver/gr/v20190429/friver_input4MIPs_atmosphericState_OMIP_
   hashes:
     binhash: b695aa7c1603eec26fe93674bf2ccfe5
     md5: 7d09d06ec59b71f0dffe288f7507b06d
+work/INPUT/land_mask.nc:
+  fullpath: /scratch/jk72/mxr581/regional_mom6_configs/tassie-access-om2-forced-small-test/land_mask.nc
+  hashes:
+    binhash: 25ce39915342bd2f8edf93e1629cb824
+    md5: ad3976e557b6e96b2b9234f8ff2ca5f0
 work/INPUT/ocean/day/tos/gn/v20190429/tos_input4MIPs_atmosphericState_OMIP_MRI-JRA55-do-1-4-0_gn_19580101-19581231.nc:
   fullpath: /g/data/qv56/replicas/input4MIPs/CMIP6/OMIP/MRI/MRI-JRA55-do-1-4-0/ocean/day/tos/gn/v20190429/tos_input4MIPs_atmosphericState_OMIP_MRI-JRA55-do-1-4-0_gn_19580101-19581231.nc
   hashes:
@@ -4096,21 +4151,11 @@ work/INPUT/ocean/yrC/vos/gr/v20190429/vos_input4MIPs_atmosphericState_OMIP_MRI-J
   hashes:
     binhash: 285b9561db14aa78236c5a6a96ebc681
     md5: 017073d6e701f3df36729bc428ceffa1
-work/INPUT/ocean_hgrid.nc:
-  fullpath: /g/data/vk83/configurations/inputs/access-om3/mom/grids/mosaic/global.1deg/2020.05.30/ocean_hgrid.nc
+work/INPUT/ocean_mosaic.nc:
+  fullpath: /scratch/jk72/mxr581/regional_mom6_configs/tassie-access-om2-forced-small-test/ocean_mosaic.nc
   hashes:
-    binhash: 3526d89ffb639455c6a1218f5139d5b2
-    md5: 51f58be0f4ea6da2cb438a893f95c689
-work/INPUT/ocean_temp_salt.res.nc:
-  fullpath: /g/data/vk83/configurations/inputs/access-om3/mom/initial_conditions/global.1deg/2020.10.22/ocean_temp_salt.res.nc
-  hashes:
-    binhash: efb5e5e124648f2d59d4cd56b6e9a023
-    md5: c5f7e60b5427a4442f111adc65a2d067
-work/INPUT/ocean_vgrid.nc:
-  fullpath: /g/data/vk83/configurations/inputs/access-om3/mom/grids/vertical/global.1deg/2023.07.28/ocean_vgrid.nc
-  hashes:
-    binhash: ad5bf87f1c69ef3be1061a5c6d1d0411
-    md5: a1e0b0b0adc363506ff17a362e83f64a
+    binhash: c28c9510c5e56de821268cd76a63e40d
+    md5: 258cd57436fdf63d1d45e6b3ac7b9264
 work/INPUT/salt_sfc_restore.nc:
   fullpath: /g/data/vk83/configurations/inputs/access-om3/mom/surface_salt_restoring/global.1deg/2020.05.30/salt_sfc_restore.nc
   hashes:
@@ -4741,3 +4786,8 @@ work/INPUT/topog.nc:
   hashes:
     binhash: 101cb5069e11e9f3196a5a6804fa0780
     md5: 4e13d88001b646f3cf4f1c3b8db59f91
+work/INPUT/vcoord.nc:
+  fullpath: /scratch/jk72/mxr581/regional_mom6_configs/tassie-access-om2-forced-small-test/vcoord.nc
+  hashes:
+    binhash: a0d098a7a33cd7b6853d827a9e74db63
+    md5: 7f3e5171320d713366158da21529742a
