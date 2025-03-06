@@ -1,0 +1,34 @@
+laboratory path:  /scratch/jk72/mxr581/access-om3
+binary path:  /scratch/jk72/mxr581/access-om3/bin
+input path:  /scratch/jk72/mxr581/access-om3/input
+work path:  /scratch/jk72/mxr581/access-om3/work
+archive path:  /scratch/jk72/mxr581/access-om3/archive
+Metadata and UUID generation is disabled. Experiment name used for archival: access-rom3-test3
+nruns: 1 nruns_per_submit: 1 subrun: 1
+payu: Found modules in /opt/Modules/v4.3.0
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+Setting up access-om3
+Checking exe, input and restart manifests
+LOG: skipping concatenating daily sea ice files (incomplete month)
+136034513.gadi-pbs
+Writing manifests/restart.yaml
+mod access-om3-nuopc/0.3.1-fvr7qaw
+mod access-om3/pr30-5
+mod nco/5.0.5
+mpirun  -wdir /scratch/jk72/mxr581/access-om3/work/access-rom3-test3 -np 16  /scratch/jk72/mxr581/access-om3/work/access-rom3-test3/access-om3-MOM6
+/usr/bin/bash /g/data/vk83/apps/om3-scripts/payu_config/archive.sh
+
+======================================================================================
+                  Resource Usage on 2025-02-27 16:04:06:
+   Job Id:             136033983.gadi-pbs
+   Project:            jk72
+   Exit Status:        0
+   Service Units:      7.78
+   NCPUs Requested:    16                     NCPUs Used: 16              
+                                           CPU Time Used: 02:23:38        
+   Memory Requested:   100.0GB               Memory Used: 76.5GB          
+   Walltime requested: 01:00:00            Walltime Used: 00:09:20        
+   JobFS requested:    10.0GB                 JobFS used: 8.07MB          
+======================================================================================

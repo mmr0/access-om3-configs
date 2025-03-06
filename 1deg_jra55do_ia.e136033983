@@ -1,0 +1,7 @@
+Loading access-om3/pr30-5
+  Loading requirement: access-om3-nuopc/0.3.1-fvr7qaw
+Currently Loaded Modulefiles:
+ 1) access-om3-nuopc/0.3.1-fvr7qaw   3) nco/5.0.5                5) pbs  
+ 2) access-om3/pr30-5                4) openmpi/4.1.7(default)  
+ls: cannot access 'archive/output000/access-om3.cice.r.*': No such file or directory
+cal: unknown month name: om3.cice*.????
